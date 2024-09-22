@@ -5,6 +5,7 @@
 
   .mobile-btn{
     display: block;
+    color: #ffffff;
     background-color: transparent;
     border: none;
     font-size: 1.5rem;
@@ -19,7 +20,7 @@
   }
 
   #mobile-menu a{
-    color: black;
+    color: #ffffff;
     transition: all .3s;
   }
 
@@ -31,5 +32,39 @@
   #btn-mobile{
     width: fit-content;
     margin: auto;
+  }
+
+  #home{
+    min-height: 100%;
+    margin-top: -5%;
+  }
+
+  #banner, #banner img, .shape{
+    display: none;
+  }
+
+  #cta{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  #pratos{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .prato{
+    width: calc(50% - 12px);
+  }
+}
+
+@media screen and (max-width: 600px){
+  .prato{
+    width: 100%;
+  }
+
+  .section-subtitle{
+    text-align: center;
   }
 }
