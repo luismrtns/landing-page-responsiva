@@ -101,6 +101,10 @@
     font-size: .9rem;
   }
 
+  .prato{
+    box-shadow: none;
+  }
+
   #avalia_content{
     box-shadow: none;
   }
