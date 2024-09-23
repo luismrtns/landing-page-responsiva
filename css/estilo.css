@@ -31,6 +31,11 @@
   text-decoration: none;
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 1.8rem;
+}
+
 body{
   background-color: #fff9ea;
 }
@@ -185,15 +190,16 @@ section{
   z-index: -1;
 }
 
-#menu{
+#cardapio{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin: 3rem 0;
 }
 
-#menu .section-title{
+.section-title{
   color: #eda814;
   font-size: 1.563rem;
 }
@@ -264,4 +270,75 @@ section{
 
 .prato .prato-valor button i{
   font-size: 1.2rem;
+}
+
+#avalia{
+  min-height: calc(100vh - 91px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: 3rem 0;
+}
+
+#avalia .img-chef{
+  width: 500px;
+  height: auto;
+}
+
+#avalia_content{
+  background-color: #ffffff;
+  padding: 1.8rem;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px rgba(0,0,0,0.5);
+}
+
+#feedbacks{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feedback{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .8rem 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.211);
+}
+
+.feedbackContent{
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  font-size: 1.05rem;
+}
+
+.feedbackContent p{
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedbackContent p:nth-child(1){
+  font-weight: 600;
+}
+
+#avalia_content button{
+  margin-top: 1rem;
+}
+
+footer{
+  background-color: #ffe8b4;
+}
+
+#footer_items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8% 24px 8%
+}
+
+#footer_items span{
+  font-size: 1.2rem;
+  font-weight: 600;
 }
