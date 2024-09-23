@@ -3,29 +3,29 @@ $(document).ready(function(){
     $('#mobile-menu').toggleClass('active');
     $('.mobile-btn').find('i').toggleClass('fa-x');
   });
-  ScrollReveal().reveal('#cta', {
-    origin: 'left',
-    duration: 2000,
-    distance: '20%'
-  })
+  // ScrollReveal().reveal('#cta', {
+  //   origin: 'left',
+  //   duration: 2000,
+  //   distance: '20%'
+  // })
 
-  ScrollReveal().reveal('#pratos', {
-    origin: 'right',
-    duration: 2000,
-    distance: '20%'
-  })
+  // ScrollReveal().reveal('#pratos', {
+  //   origin: 'right',
+  //   duration: 2000,
+  //   distance: '20%'
+  // })
 
-  ScrollReveal().reveal('#avalia', {
-    origin: 'top',
-    duration: 2000,
-    distance: '20%'
-  })
+  // ScrollReveal().reveal('#avalia', {
+  //   origin: 'top',
+  //   duration: 2000,
+  //   distance: '20%'
+  // })
   
-  ScrollReveal().reveal(".img-chef", {
-    origin: "top",
-    duration: 1000,
-    distance: "20%",
-  })
+  // ScrollReveal().reveal(".img-chef", {
+  //   origin: "top",
+  //   duration: 1000,
+  //   distance: "20%",
+  // })
     // const sections = $('section');
   // const navItems = $('.nav-item');
 
