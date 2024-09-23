@@ -82,9 +82,6 @@ header{
 }
 
 .btn-default{
-  display: flex;
-  align-items: center;
-  gap: .2rem;
   background-color: #e9a209;
   color: #000000;
   font-weight: 500;
